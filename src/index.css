@@ -1,0 +1,35 @@
+@import 'tailwindcss';
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 2px;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+  height: 100vh;
+}
+
+.container {
+  @apply w-[1124px] mx-auto;
+}
+
+@media screen and (max-width: 678px) {
+  .container {
+    @apply w-[90%] mx-auto;
+  }
+}
+
+@theme {
+  --color-gray-100: #f1f1f1;
+  --color-red-500: rgb(244, 67, 54);
+}
+
+.homeBg {
+  background: url('./assets/showcase.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 85vh;
+  width: 100%;
+}
