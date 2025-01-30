@@ -11,7 +11,7 @@ Currently, two official plugins are available:
 
 1. **Clone the repository**  
    ```sh
-   git clone https://github.com/hilla10/acme_web_designing.git
+   git clone https://github.com/hilla10/acme_web_service.git
    cd your-repo
 
 Run the following command to install all necessary dependencies:
